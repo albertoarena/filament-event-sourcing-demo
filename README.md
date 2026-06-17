@@ -49,6 +49,34 @@ Then open the admin panel at `/admin`, sign in with the seeded credentials below
   `PostProjector` implements `resetState()`, so a full replay clears and rebuilds the projection.
   Replays run synchronously in the request.
 
+## Screenshots
+
+**Posts list** with a per-row History action.
+
+![Posts list](docs/screenshots/posts-list.png)
+
+**Event history** slide-over listing the aggregate's events with an expandable JSON payload.
+
+![Event history](docs/screenshots/event-history.png)
+
+**Event history relation tab** on a single post.
+
+![Event history relation tab](docs/screenshots/event-history-relation-tab.png)
+
+**Stored Events browser**, the read-only resource over every stored event.
+
+![Stored Events browser](docs/screenshots/stored-event-browser.png)
+
+**Stored event view** with the pretty-printed payload.
+
+![Stored event view](docs/screenshots/stored-event-view.png)
+
+**Replay Projectors**: select a projector, confirm, and see how many events were replayed.
+
+![Replay step 1](docs/screenshots/replay-step-1.png)
+![Replay step 2, confirmation](docs/screenshots/replay-step-2-confirmation.png)
+![Replay step 3, notification](docs/screenshots/replay-step-3-notification.png)
+
 ## License
 
 The MIT License (MIT).
