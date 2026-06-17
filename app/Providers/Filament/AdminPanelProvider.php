@@ -5,6 +5,7 @@ namespace App\Providers\Filament;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
+use Albertoarena\FilamentEventSourcing\FilamentEventSourcingPlugin;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Filament\Pages\Dashboard;
 use Filament\Panel;
@@ -54,6 +55,11 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->authMiddleware([
                 Authenticate::class,
-            ]);
+            ])
+            ->plugin(
+                FilamentEventSourcingPlugin::make()
+                    ->storedEventsResource()
+                    ->replayPage()
+            );
     }
 }
