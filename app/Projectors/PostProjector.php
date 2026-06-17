@@ -13,6 +13,11 @@ use Spatie\EventSourcing\EventHandlers\Projectors\Projector;
 
 final class PostProjector extends Projector
 {
+    public function resetState(): void
+    {
+        Post::query()->delete();
+    }
+
     public function onPostCreated(PostCreated $event): void
     {
         (new Post([
