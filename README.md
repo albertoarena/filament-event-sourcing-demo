@@ -22,8 +22,8 @@ events browser, per-record event history and projector replay page.
 ```bash
 git clone https://github.com/albertoarena/filament-event-sourcing-demo.git
 cd filament-event-sourcing-demo
-composer install
 cp .env.example .env
+composer install
 php artisan key:generate
 touch database/database.sqlite
 php artisan migrate --seed
@@ -45,7 +45,9 @@ Then open the admin panel at `/admin`, sign in with the seeded credentials below
 - **Event history**: open a post and use the History action, or the Stored Events relation tab,
   to see the aggregate's events with their payloads.
 - **Stored Events**: the read-only browser over every stored event, with filters.
-- **Replay Projectors**: rebuild the `Post` projection from its events (enabled in config).
+- **Replay Projectors**: rebuild the `Post` projection from its events (enabled in config). The
+  `PostProjector` implements `resetState()`, so a full replay clears and rebuilds the projection.
+  Replays run synchronously in the request.
 
 ## License
 
