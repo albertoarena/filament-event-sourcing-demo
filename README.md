@@ -1,5 +1,7 @@
 # Filament Event Sourcing Demo
 
+[![Repo views](https://raw.githubusercontent.com/albertoarena/filament-event-sourcing-demo/traffic-data/badge.svg)](https://github.com/albertoarena/filament-event-sourcing-demo)
+
 A small Filament application that demonstrates
 [albertoarena/filament-event-sourcing](https://github.com/albertoarena/filament-event-sourcing),
 the package that integrates [spatie/laravel-event-sourcing](https://spatie.be/docs/laravel-event-sourcing/v7/introduction)
