@@ -1,5 +1,7 @@
 # Filament Event Sourcing Demo
 
+![Filament Event Sourcing](https://raw.githubusercontent.com/albertoarena/filament-event-sourcing/main/art/cover-1600x900.png)
+
 [![Repo views](https://raw.githubusercontent.com/albertoarena/filament-event-sourcing-demo/traffic-data/badge.svg)](https://github.com/albertoarena/filament-event-sourcing-demo)
 
 A small Filament application that demonstrates
