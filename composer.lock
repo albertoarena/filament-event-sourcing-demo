@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ace8324ffd76884f71cceec3e801b213",
+    "content-hash": "5c48af69afa9fa122855bc5fbbb7b3bf",
     "packages": [
         {
             "name": "albertoarena/filament-event-sourcing",
-            "version": "v0.1.0",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/albertoarena/filament-event-sourcing.git",
-                "reference": "028dbe9748fc0d50b6c86153f1370de55d4dc712"
+                "reference": "5e878f89ccee3b9fe01f426f28d1fbca3380cde9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/albertoarena/filament-event-sourcing/zipball/028dbe9748fc0d50b6c86153f1370de55d4dc712",
-                "reference": "028dbe9748fc0d50b6c86153f1370de55d4dc712",
+                "url": "https://api.github.com/repos/albertoarena/filament-event-sourcing/zipball/5e878f89ccee3b9fe01f426f28d1fbca3380cde9",
+                "reference": "5e878f89ccee3b9fe01f426f28d1fbca3380cde9",
                 "shasum": ""
             },
             "require": {
@@ -74,7 +74,7 @@
                 "issues": "https://github.com/albertoarena/filament-event-sourcing/issues",
                 "source": "https://github.com/albertoarena/filament-event-sourcing"
             },
-            "time": "2026-06-17T15:19:06+00:00"
+            "time": "2026-06-26T06:33:54+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
