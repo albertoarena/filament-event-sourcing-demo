@@ -15,10 +15,11 @@ events browser, per-record event history and projector replay page.
 
 ## Stack
 
-- Laravel `^12.0`
+- PHP `^8.3`
+- Laravel `^13.0`
 - Filament `^4.0`
 - spatie/laravel-event-sourcing `^7.0`
-- albertoarena/filament-event-sourcing `^0.1`
+- albertoarena/filament-event-sourcing `^1.2`
 - SQLite (local file database)
 
 ## Getting started
