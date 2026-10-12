@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c038c9104656c85a6aca67033876d90c",
+    "content-hash": "15060ef349c5e7c70c6c6074c338bd1e",
     "packages": [
         {
             "name": "albertoarena/filament-event-sourcing",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/albertoarena/filament-event-sourcing.git",
-                "reference": "75fd374735198a26f7fbc4c0f40e4a65daec498e"
+                "reference": "71bf4040cee3b34196dc577888f6ad65f766b59e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/albertoarena/filament-event-sourcing/zipball/75fd374735198a26f7fbc4c0f40e4a65daec498e",
-                "reference": "75fd374735198a26f7fbc4c0f40e4a65daec498e",
+                "url": "https://api.github.com/repos/albertoarena/filament-event-sourcing/zipball/71bf4040cee3b34196dc577888f6ad65f766b59e",
+                "reference": "71bf4040cee3b34196dc577888f6ad65f766b59e",
                 "shasum": ""
             },
             "require": {
-                "filament/filament": "^4.0",
+                "filament/filament": "^4.0|^5.0",
                 "illuminate/contracts": "^11.0|^12.0|^13.0",
                 "php": "^8.2",
                 "spatie/laravel-event-sourcing": "^7.0",
@@ -74,7 +74,7 @@
                 "issues": "https://github.com/albertoarena/filament-event-sourcing/issues",
                 "source": "https://github.com/albertoarena/filament-event-sourcing"
             },
-            "time": "2026-08-05T16:54:02+00:00"
+            "time": "2026-10-12T12:42:23+00:00"
         },
         {
             "name": "anourvalar/eloquent-serialize",
